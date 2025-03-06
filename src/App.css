@@ -1,0 +1,20 @@
+.wrapper {
+  max-width: 900px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+.chat-textarea-block {
+  display: flex;
+  column-gap: 5px;
+}
+.chat-messages {
+  min-height: 500px;
+  max-height: 700px;
+  overflow-y: auto;
+  background-color: #424242;
+  color: #fff;
+  padding: 10px;
+}
+textarea {
+  width: 100%;
+}
